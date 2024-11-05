@@ -74,6 +74,7 @@
         android:textSize="8pt"
         android:id="@+id/btnDangnhap"
         android:text="Đăng nhập"
+        android:backgroundTint="#006600"
         android:layout_marginTop="8pt"
         android:padding="5pt"
         android:textStyle="bold"/>
