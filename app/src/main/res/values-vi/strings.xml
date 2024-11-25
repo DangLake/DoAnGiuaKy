@@ -1,3 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Bạn nhà nông</string>
+    <string name="signin_signin">Đăng ký</string>
+    <string name="signin_sdt">Số điện thoại</string>
+    <string name="signin_sdt_hint">Nhập số điện thoại</string>
+
+
+
+    <string name="login_welcome">Chào mừng!</string>
+    <string name="login_pass">Mật khẩu</string>
+    <string name="login_pass_hint">Nhập mật khẩu</string>
+    <string name="login_forget">Quên mật khẩu?</string>
+    <string name="login_saisdt">Sai số điện thoại</string>
+    <string name="login_saipass">Sai mật khẩu</string>
+
+
+
+    <string name="signin_login">Đăng nhập</string>
+    <string name="login_create">Chưa có tài khoản?</string>
+    <string name="menu_loai">Danh sách sản phẩm</string>
+    <string name="menu_about">Giới thiệu</string>
+    <string name="menu_themsp">Thêm sản phẩm</string>
+    <string name="menu_dsloai">Danh sách loại sản phẩm</string>
+
+
+    <string name="trangchu">Trang chủ</string>
+    <string name="dialog_xoa">Xóa?</string>
+    <string name="dialog_xoahuy">Hủy?</string>
+    <string name="dialog_xoamg">Có chắc muốn xóa?</string>
+
+
+    <string name="them_ten">Tên: </string>
+    <string name="them_anh">Ảnh: </string>
+    <string name="them_gia">Giá: </string>
+    <string name="them_mota">Mô tả: </string>
+    <string name="them_anh_chooce">Chọn ảnh </string>
+    <string name="them_loai">Loại: </string>
+    <string name="them_loai_select">Chọn loại </string>
+    <string name="them_null">Vui lòng nhập đầy đủ thông tin</string>
+    <string name="them_giasai">Giá phải là một số hợp lệ</string>
+
+
+    <string name="btn_luu">Lưu </string>
+    <string name="btn_luu_tc">Lưu thành công </string>
+    <string name="btn_luu_tb">Lưu thất bại</string>
+    <string name="btn_update_tc">Cập nhật thành công</string>
+    <string name="btn_update_tb">Cập nhật thất bại</string>
+    <string name="btn_thoat">Thoát </string>
+
+
+    <string name="quyencap">Đã cấp quyền </string>
+    <string name="quyenchua">Chưa cấp quyền </string>
+    <string name="quyentuchoi">Quyền truy cập bị từ chối</string>
+
+    <string name="img_failed">Không chọn được ảnh </string>
+    <string name="db_cotfailed">Cột không tồn tại hoặc không có dữ liệu hợp lệ</string>
+    <string name="db_doc_error">Lỗi khi đọc dữ liệu</string>
+    <string name="db_sp_null">Không có dữ liệu cho mã sản phẩm</string>
+
+
+    <string name="xoa_thanhcong">Xóa thành công</string>
+    <string name="ten_loai_da_ton_tai">Tên loại đã tồn tại</string>
+
+    <string name="chitietsp">Chi tiết sản phẩm</string>
+
+    <string name="map_ct">Đây là trường Đại học Công nghệ Sài Gòn</string>
+
+    <string name="khong_the_xoa">Không thể xóa</string>
+    <string name="loai_co_sanpham">Loại sản phẩm "%1$s" không thể xóa vì có %2$d sản phẩm liên quan!</string>
+    <string name="xacnhan_xoa">Xác nhận xóa</string>
+    <string name="ban_co_chac_chan_xoa">Bạn có chắc chắn muốn xóa loại sản phẩm: %1$s?</string>
+    <string name="dongy">Đồng ý</string>
+    <string name="huy">Hủy</string>
+    <string name="xoa_thatbai">Xóa thất bại!</string>
+
+    <string name="them_loai_sp">Thêm loại sản phẩm</string>
+    <string name="xoa_loai_sp">Xóa loại sản phẩm</string>
+    <string name="sua_loai_sp">Sửa loại sản phẩm</string>
+    <string name="ten_loai_khong_duoc_trong">Tên loại không được để trống</string>
+    <string name="them_thanh_cong">Thêm thành công</string>
+    <string name="them_that_bai">Thêm thất bại</string>
+    <string name="sua_that_bai">Sửa thất bại</string>
+    <string name="sua_thanh_cong">Sửa thành công</string>
+    <string name="loai_sp_da_co_san_pham">Loại sản phẩm này đã có sản phẩm liên quan.</string>
+    <string name="xacnhan_xoa_ca_san_pham">Bạn có chắc chắn muốn xóa cả loại sản phẩm và các sản phẩm liên quan không?</string>
+
+
 </resources>

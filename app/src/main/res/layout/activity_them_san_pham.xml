@@ -7,4 +7,175 @@
     android:layout_height="match_parent"
     tools:context=".ThemSanPham">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6750a4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_width="0pt"
+        android:layout_height="0pt"
+        android:text="@string/them_ten"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="@+id/edtTen"
+        app:layout_constraintEnd_toEndOf="@+id/tvMota"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="0pt"
+        android:textSize="10pt"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvTen"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/tvAnh"
+        android:layout_width="0pt"
+        android:layout_height="0pt"
+        android:text="@string/them_anh"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="@+id/btnChonanh"
+        app:layout_constraintEnd_toEndOf="@+id/tvMota"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTen" />
+
+    <Button
+        android:id="@+id/btnChonanh"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="@string/them_anh_chooce"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="@+id/tvAnh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvAnh"
+        app:layout_constraintTop_toBottomOf="@+id/edtTen" />
+
+    <ImageView
+        android:id="@+id/imgAnh"
+        android:layout_width="80pt"
+        android:layout_height="80pt"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/edtGia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChonanh" />
+
+    <TextView
+        android:id="@+id/tvGia"
+        android:layout_width="0pt"
+        android:layout_height="0pt"
+        android:text="@string/them_gia"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="@+id/edtGia"
+        app:layout_constraintEnd_toEndOf="@+id/tvMota"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnh" />
+
+    <EditText
+        android:id="@+id/edtGia"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="@+id/tvGia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvGia"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnh" />
+
+    <TextView
+        android:id="@+id/tvLoai"
+        android:layout_width="0pt"
+        android:layout_height="0pt"
+        android:gravity="center|left"
+        android:text="@string/them_loai"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="@+id/inputLayout"
+        app:layout_constraintEnd_toEndOf="@+id/tvMota"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGia"
+      />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayout"
+        style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:hint="@string/them_loai_select"
+        app:boxCornerRadiusBottomEnd="10sp"
+        app:boxCornerRadiusBottomStart="10sp"
+        app:boxStrokeWidth="0sp"
+        app:boxStrokeWidthFocused="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvLoai"
+        app:layout_constraintBottom_toTopOf="@id/scrView"
+        app:layout_constraintTop_toBottomOf="@+id/tvGia">
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/inputLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:textSize="8pt" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/tvMota"
+        android:layout_width="wrap_content"
+        android:layout_height="0pt"
+        android:gravity="top"
+        android:paddingEnd="10pt"
+        android:text="@string/them_mota"
+        android:textSize="10pt"
+        app:layout_constraintEnd_toStartOf="@+id/scrView"
+        app:layout_constraintTop_toTopOf="@id/scrView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLoai" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrView"
+        android:layout_width="0pt"
+        android:layout_height="80pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvMota"
+        app:layout_constraintTop_toBottomOf="@+id/inputLayout">
+
+        <EditText
+            android:id="@+id/edtMota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            app:layout_constraintBottom_toBottomOf="@+id/tvMota"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvMota"
+            app:layout_constraintTop_toBottomOf="@+id/edtGia" />
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/btnLuu"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_luu"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnThoat"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnThoat"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_thoat"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnLuu" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

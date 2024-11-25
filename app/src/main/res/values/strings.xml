@@ -1,3 +1,88 @@
 <resources>
-    <string name="app_name">DoAnGiuaKy</string>
+    <string name="app_name">Famer Friend</string>
+    <string name="signin_signin">Sign in</string>
+    <string name="signin_sdt">Phone number</string>
+    <string name="signin_sdt_hint">Input phone number</string>
+    <string name="signin_login">Log in</string>
+
+
+    <string name="login_welcome">Welcome!</string>
+    <string name="login_pass">Password</string>
+    <string name="login_pass_hint">Input password</string>
+    <string name="login_forget">Forget password?</string>
+    <string name="login_create">Create account?</string>
+    <string name="login_saisdt">Error number phone</string>
+    <string name="login_saipass">Error password</string>
+
+
+    <string name="menu_loai">List product</string>
+    <string name="menu_about">About</string>
+    <string name="menu_themsp">Add Product</string>
+    <string name="menu_dsloai">List product type</string>
+
+
+    <string name="trangchu">Home</string>
+    <string name="dialog_xoa">Delete?</string>
+    <string name="dialog_xoamg">You want to delete?</string>
+    <string name="dialog_xoahuy">Cancel?</string>
+
+
+    <string name="them_ten">Name: </string>
+    <string name="them_anh">Image: </string>
+    <string name="them_gia">Price: </string>
+    <string name="them_mota">Describe: </string>
+    <string name="them_anh_chooce">Choose photo </string>
+    <string name="them_loai">Type: </string>
+    <string name="them_loai_select">Choose type </string>
+    <string name="them_null">Please enter complete information</string>
+    <string name="them_giasai">Price must be a valid number</string>
+
+    <string name="btn_luu">Save </string>
+    <string name="btn_luu_tc">Saved successfully</string>
+    <string name="btn_luu_tb">Save failed</string>
+    <string name="btn_update_tc">Updated successfully</string>
+    <string name="btn_update_tb">Updated failed</string>
+
+    <string name="btn_thoat">Cancel </string>
+
+    <string name="quyencap">Permission Granted </string>
+    <string name="quyenchua">Permission Denied</string>
+    <string name="quyentuchoi">Access denied</string>
+    <string name="img_failed">Cannot select photo</string>
+    <string name="db_cotfailed">Column does not exist or does not have valid data</string>
+    <string name="db_doc_error">Error reading data</string>
+    <string name="db_sp_null">There is no data for the product code</string>
+
+    <string name="xoa_thanhcong">Deleted successfully</string>
+
+    <string name="chitietsp">Product details</string>
+    <string name="ten_loai_da_ton_tai">The type name already exists</string>
+
+
+    <string name="map_ct">This is Sai Gon Technology University</string>
+
+
+    <string name="khong_the_xoa">Cannot be deleted</string>
+    <string name="loai_co_sanpham">Product type "%1$s" cannot be deleted because there are %2$d related products!</string>
+    <string name="xacnhan_xoa">Confirm deletion</string>
+    <string name="ban_co_chac_chan_xoa">Are you sure you want to delete product type: %1$s?</string>
+    <string name="dongy">YES</string>
+    <string name="huy">CANCEL</string>
+    <string name="xoa_thatbai">Delete failed</string>
+
+
+
+    <string name="them_loai_sp">Add product type</string>
+    <string name="xoa_loai_sp">Delete product type</string>
+    <string name="sua_loai_sp">Edit product type</string>
+    <string name="ten_loai_khong_duoc_trong">Type name cannot be empty</string>
+    <string name="them_thanh_cong">Added successfully</string>
+    <string name="them_that_bai">More failures</string>
+    <string name="sua_that_bai">Edit failed</string>
+    <string name="sua_thanh_cong">Edited successfully</string>
+    <string name="loai_sp_da_co_san_pham">This product type already has related products.</string>
+    <string name="xacnhan_xoa_ca_san_pham">Are you sure you want to delete both the product type and related products?</string>
+
+
+
 </resources>

@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Chào mừng!"
+        android:text="@string/login_welcome"
         android:gravity="center"
         android:textSize="13pt"
         android:textStyle="bold"
@@ -25,7 +25,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Số điện thoại"
+        android:text="@string/signin_sdt"
         android:layout_marginBottom="2pt"
         android:textSize="8pt"
         android:layout_marginTop="15pt"
@@ -36,12 +36,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/edtSDT"
         android:textSize="8pt"
+        android:inputType="phone"
         android:background="@drawable/eidttext_border"
-        android:hint="Nhập số điện thoại"/>
+        android:hint="@string/signin_sdt_hint"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mật khẩu"
+        android:text="@string/login_pass"
         android:layout_marginBottom="2pt"
         android:textSize="8pt"
         android:layout_marginTop="8pt"
@@ -52,8 +53,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/edtMatkhau"
         android:textSize="8pt"
+        android:inputType="textPassword"
         android:background="@drawable/eidttext_border"
-        android:hint="Nhập mật khẩu"/>
+        android:hint="@string/login_pass_hint"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -62,7 +64,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Quên mật khẩu?"
+            android:text="@string/login_forget"
             android:textSize="8pt"
             android:id="@+id/btnQuenmk"
             android:textColor="#808080"
@@ -73,8 +75,7 @@
         android:layout_height="wrap_content"
         android:textSize="8pt"
         android:id="@+id/btnDangnhap"
-        android:text="Đăng nhập"
-        android:backgroundTint="#006600"
+        android:text="@string/signin_login"
         android:layout_marginTop="8pt"
         android:padding="5pt"
         android:textStyle="bold"/>
@@ -87,13 +88,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chưa có tài khoản?"
+            android:text="@string/login_create"
             android:textSize="8pt"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Đăng ký"
+            android:text="@string/signin_signin"
             android:textSize="8pt"
             android:id="@+id/btnDangky"
             android:textColor="#008000"
